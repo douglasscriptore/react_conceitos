@@ -1,0 +1,6 @@
+{
+  // o @babel/preset-env transforma todas as funcionalidades atuais do javascript em funcionalidade equivalente mas que o navegador entende
+  // o @babel/preset-react vai transformar as funcionalidades exclusivas do react em funcionalidade equivalente mas que o navegador entende
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
