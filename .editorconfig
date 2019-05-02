@@ -1,0 +1,14 @@
+# diz que esse é o arquivo inicial do .editorconfig
+# e o arquivo global do .editorconfig
+root = true
+
+# indica que essas configurações são para todos os arquivos
+[*]
+
+# colocar instruções
+indent_style = space
+indent_size = 2
+end_of_line = lf #utilizado para definir a quebra de linha
+charset = utf-8
+trim_trailing_whitespace = true #remove espaços em brancos no final da linha
+insert_final_newline = true
